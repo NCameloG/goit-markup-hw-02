@@ -1,14 +1,15 @@
 :root {
-  --hover-color: #2196f3;
-  --background-color: #2f303a;
-  --backgroundbutton-color: #f5f4fa;
+  --hover-color: rgb(33, 150, 243);
+  --background-color: rgb(47, 48, 58, 1);
+  --backgroundbutton-color: rgb(245, 244, 250);
+  --textcolor-color: rgb(33, 33, 33);
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .main {
   background-color: var(--background-color);
 }
 body {
-  color: #212121;
+  color: var(--textcolor-color);
   font-family: 'Roboto', sans-serif;
 }
 footer {
@@ -17,12 +18,11 @@ footer {
 ul {
   list-style: none;
 }
-.main-title {
-  color: #ffffff;
+.mainTitle {
+  color: rgb(255, 255, 255, 1);
   font-family: 'Roboto', sans-serif;
   font-size: 44px;
   font-weight: 900;
-  text-align: center;
 }
 .subtitle {
   font-family: 'Roboto', sans-serif;
@@ -36,55 +36,72 @@ ul {
   font-weight: 700;
 }
 .contenido {
-  color: #757575;
+  color: rgb(117, 117, 117);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
-.superior-bar {
-  background-color: #ececec;
-}
-.icon {
-  color: #2196f3;
+.iconName {
+  color: rgb(33, 150, 243);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
   text-align: right;
+  text-decoration: none;
 }
-.header-contact {
-  color: #757575;
+.footerIconFull {
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: right;
+  text-decoration: none;
+}
+.headerIconFull {
+  color: rgb(33, 33, 33);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: right;
+  text-decoration: none;
+}
+.headerContact {
+  color: rgb(117, 117, 117);
 }
 .link {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
 }
-.nav-link {
-  color: #212121;
+.navLink {
+  color: rgb(33, 33, 33);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
 }
-.contact-link {
-  color: #ffffff99;
+.navLink:focus,
+.navLink:hover {
+  color: rgb(33, 150, 243);
+}
+.contactLink {
+  color: rgba(255, 255, 255, 0.6);
 }
 .link:hover,
 .link:focus {
   color: var(--hover-color);
 }
-.icon:active {
-  color: var(--hover-color);
-}
-.main-button {
+.mainButton {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-align: center;
-  background-color: var(--backgroundbutton-color);
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 150, 243);
   border-style: hidden;
+  width: 261px;
+  height: 50px;
+  border-radius: 4px;
 }
-.main-button:hover,
-.main-button:focus {
-  color: #ffffff;
-  background-color: var(--hover-color);
+.mainButton:hover,
+.mainButton:focus {
   cursor: pointer;
 }
 .button {
@@ -94,35 +111,44 @@ ul {
   text-align: center;
   background-color: var(--backgroundbutton-color);
   border-style: hidden;
+  border-radius: 4px;
+  width: 128px;
+  height: 38px;
 }
 .button:hover,
-.button:focus {
-  color: #ffffff;
+.button:focus,
+.button:active {
+  color: rgb(255, 255, 255);
   background-color: var(--hover-color);
   cursor: pointer;
 }
 .ubication {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
 .team {
-  text-align: center;
+  background-color: rgb(245, 244, 250);
 }
-.team-name {
+.teamMember {
+  background-color: rgb(255, 255, 255, 1);
+}
+.teamName {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 700;
+  text-align: center;
 }
-.team-job {
-  color: #757575;
+.teamJob {
+  color: rgb(117, 117, 117);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  text-align: center;
 }
-.find-us {
-  color: #ffffff;
+.findUs {
+  color: rgb(255, 255, 255);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 700;
 }
-.social-media {
-  color: #ffffff;
+.socialMedia {
+  color: rgb(255, 255, 255);
 }
