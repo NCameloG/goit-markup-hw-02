@@ -4,7 +4,8 @@
   --backgroundbutton-color: rgb(245, 244, 250);
   --textcolor-color: rgb(33, 33, 33);
 }
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .main {
   background-color: var(--background-color);
 }
@@ -23,39 +24,39 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 6%;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
 }
 .subtitle {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
-  line-height: 42px;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .detail {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 17px;
-  letter-spacing: 3%;
+  line-height: 1.21;
+  letter-spacing: 0.03em;
 }
 .content {
   color: rgb(117, 117, 117);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400px;
-  line-height: 24px;
-  letter-spacing: 3%;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .iconName {
   color: var(--selected-color);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 3%;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: right;
   text-decoration: none;
 }
@@ -64,8 +65,8 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 3%;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: right;
   text-decoration: none;
 }
@@ -74,8 +75,8 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 3%;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: right;
   text-decoration: none;
 }
@@ -84,11 +85,15 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;
-  line-height: 17px;
-  letter-spacing: 2%;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
 }
 .navLink {
   color: var(--textcolor-color);
+}
+.navLink:active .navLink:focus,
+.navLink:hover {
+  color: var(--selected-color);
 }
 .headerContact {
   color: rgb(117, 117, 117);
@@ -116,8 +121,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 30px;
-  letter-spacing: 6%;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   text-align: center;
   background-color: var(--backgroundbutton-color);
   border-style: hidden;
@@ -144,16 +149,16 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 19px;
-  letter-spacing: 3%;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .teamJob {
   color: rgb(117, 117, 117);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 3%;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .findUs {
@@ -161,8 +166,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 17px;
-  letter-spacing: 3%;
+  line-height: 1.21;
+  letter-spacing: 0.03em;
 }
 .socialMedia {
   color: rgb(255, 255, 255);
